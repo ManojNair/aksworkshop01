@@ -59,7 +59,7 @@
   - Control plane (managed by Azure)
   - Node pools and scaling
   - Azure integrations (Microsoft Entra ID, ACR, Key Vault)
-  - Networking models (kubenet vs Azure CNI)
+  - Networking models (Azure CNI - recommended, kubenet deprecated)
 
 #### **2.2 Creating and Managing AKS Clusters (25 minutes)**
 - **Cluster Creation Options** (10 minutes)
