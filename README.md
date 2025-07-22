@@ -32,6 +32,7 @@
   - Building and running containers
   - Container registries (ACR introduction)
   - **Demo 1.1:** Live container creation and deployment (10 minutes)
+    - **📋 [Demo 1.1 Step-by-Step Guide](demos/demo-1-1-container-creation.md)**
 
 #### **1.3 Kubernetes Fundamentals (25 minutes)**
 - **Why Kubernetes?** (10 minutes)
@@ -44,6 +45,7 @@
   - Namespaces and Labels
   - ConfigMaps and Secrets
   - **Demo 1.2:** kubectl commands and resource management
+    - **📋 [Demo 1.2 Step-by-Step Guide](demos/demo-1-2-kubectl-commands.md)**
 
 ---
 
@@ -72,6 +74,7 @@
   - Exploring cluster configuration options
   - Node pool management and scaling
   - Connecting to the cluster with kubectl
+  - **📋 [Demo 2.1 Complete Step-by-Step Guide](demos/demo-2-1-aks-cluster-management.md)**
   ```bash
   # Demo commands - AKS cluster creation
   az group create --name aks-demo-rg --location eastus
@@ -117,6 +120,7 @@
   - Service exposure and ingress configuration
   - Scaling and updating applications
   - Monitoring deployment status
+  - **📋 [Demo 3.1 Complete Step-by-Step Guide](demos/demo-3-1-app-deployment.md)**
   ```yaml
   # Demo deployment manifest
   apiVersion: apps/v1
@@ -153,6 +157,7 @@
   - Management from Azure Portal
   - Networking considerations for edge scenarios
   - **Demo 3.2:** AKS on Azure Local portal walkthrough and architecture review
+    - **📋 [Demo 3.2 Complete Portal Walkthrough](demos/demo-3-2-aks-azure-local.md)**
 
 #### **3.3 Deployment Considerations and Comparison (5 minutes)**
 - **AKS vs AKS on Azure Local** (5 minutes)
@@ -183,6 +188,27 @@
 - AKS certification paths (AZ-104, AZ-204, AZ-305)
 - Advanced topics: Service Mesh, GitOps, Advanced Security
 - Follow-up hands-on workshop recommendations
+
+## **📋 Complete Demo Exercise Collection**
+
+All demos include detailed step-by-step instructions, code examples, and troubleshooting guides:
+
+| Demo | Duration | Topic | Guide |
+|------|----------|--------|-------|
+| **Demo 1.1** | 10 min | Container Creation & Deployment | [📋 Step-by-Step Guide](demos/demo-1-1-container-creation.md) |
+| **Demo 1.2** | - | kubectl Commands & Resource Management | [📋 Step-by-Step Guide](demos/demo-1-2-kubectl-commands.md) |
+| **Demo 2.1** | 15 min | AKS Cluster Creation & Management | [📋 Complete Guide](demos/demo-2-1-aks-cluster-management.md) |
+| **Demo 3.1** | 15 min | Application Deployment to AKS | [📋 Complete Guide](demos/demo-3-1-app-deployment.md) |
+| **Demo 3.2** | - | AKS on Azure Local Portal Walkthrough | [📋 Portal Guide](demos/demo-3-2-aks-azure-local.md) |
+
+Each demo guide includes:
+- ✅ Prerequisites and setup requirements
+- ✅ Learning objectives and key concepts
+- ✅ Detailed step-by-step instructions with commands
+- ✅ Code examples and YAML manifests
+- ✅ Troubleshooting section with common issues
+- ✅ Best practices and discussion points
+- ✅ Next steps for continued learning
 
 ---
 
